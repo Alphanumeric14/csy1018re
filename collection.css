@@ -1,0 +1,82 @@
+body{
+background: url('frost.jpg'); /* copyright free image, https://pixabay.com/en/frosted-glass-background-psychedelic-2360088/ */
+background-size: cover;
+}
+.aj{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+}
+
+bi ul{
+  padding: 0;
+  list-style-type: none;
+  background-color: black;
+  opacity: .7;
+}
+
+bi a{
+  padding: 8px;
+  text-decoration: none;
+  color: #E1D4F6; /* whitesh, color-hex.com */
+  font-weight: bold;
+  display: block;
+}
+
+bi a:hover{
+  background-color: #B22222; /* firebrick color, color-hex.com */
+  transition-delay: 0.3s;
+  -webkit-transform: scale(1.1);
+}
+
+@media screen and (min-width: 800px){
+  bi ul{
+    display: flex;
+    justify-content: space-around;
+}
+  }
+
+.rgdi{
+
+  font-size: 86px;
+  margin: 0 auto;
+  margin-top: 160px;
+  margin-left: 198px;
+}
+.fdwe{
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  max-width: 960px;
+  width: 100%;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 120px;
+  font-size: 18px;
+}
+.coll{
+  text-decoration: underline;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  font-weight: bold;
+  text-align: center;
+  font-size: 52px;
+  margin-top: 46px;
+
+}
+flick ul{
+  list-style-type: none;
+  background-color: black;
+  opacity: .7;
+  font-weight: bold;
+  padding: 0;
+}
+flick a{
+  text-decoration: none;
+  color: #E1D4F6; /* whitesh, color-hex.com */
+  display: block;
+}
+@media screen and (min-width: 800px){
+  flick ul{
+    display: flex;
+    justify-content: space-around;
+}
+  }
