@@ -1,0 +1,73 @@
+body{
+background: url('cf.jpg'); /* copyright free image, https://pixabay.com/en/animal-photography-autumn-1869818/ */
+background-size: cover;
+}
+.cfi{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+}
+
+ri ul{
+  padding: 0;
+  list-style-type: none;
+  background-color: black;
+  opacity: .7;
+}
+
+ri a{
+  padding: 8px;
+  text-decoration: none;
+  color: #E1D4F6; /* whitesh, color-hex.com */
+  font-weight: bold;
+  display: block;
+}
+
+ri a:hover{
+  background-color: #B22222; /* firebrick color, color-hex.com */
+  transition-delay: 0.3s;
+  -webkit-transform: scale(1.1);
+}
+
+@media screen and (min-width: 800px){
+  ri ul{
+    display: flex;
+    justify-content: space-around;
+}
+  }
+.say{
+  font-family: 'Scheherazade', serif; /* Google api font */
+  font-weight: bold;
+  justify-content: center;
+  font-size: 26px;
+  margin-top: 94px;
+}
+
+.fdwa{
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  max-width: 960px;
+  width: 100%;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 242px;
+  font-size: 18px;
+}
+flze ul{
+  list-style-type: none;
+  background-color: black;
+  opacity: .7;
+  font-weight: bold;
+  padding: 0;
+}
+flze a{
+  text-decoration: none;
+  color: #E1D4F6; /* whitesh, color-hex.com */
+  display: block;
+}
+@media screen and (min-width: 800px){
+  flze ul{
+    display: flex;
+    justify-content: space-around;
+}
+  }
